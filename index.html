@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WellFormedWeb</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>WellFormedWeb | Structured Web Architecture & Modern Web Development</title>
+
+<meta name="description" content="WellFormedWeb explores modern web development, scalable architecture, clean code practices, and well-structured web systems. Discover projects, tools, and ideas for building reliable web platforms.">
+
+<link rel="canonical" href="https://wellformedweb.org/">
+
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="WellFormedWeb — Building Structured Web Systems">
+<meta property="og:description" content="Modern web development, clean architecture, and scalable engineering practices.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wellformedweb.org/">
+<meta property="og:site_name" content="WellFormedWeb">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="WellFormedWeb">
+<meta name="twitter:description" content="Exploring modern web architecture and clean development practices.">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Organization",
+"name": "WellFormedWeb",
+"url": "https://wellformedweb.org",
+"sameAs": [
+"https://github.com/wellformedweb"
+]
+}
+</script>
 
 <style>
 
 body{
-font-family: Arial, Helvetica, sans-serif;
+font-family:Arial,Helvetica,sans-serif;
 margin:0;
 background:#0f172a;
 color:#e2e8f0;
@@ -17,29 +51,43 @@ line-height:1.6;
 
 header{
 background:#020617;
-padding:60px 20px;
-text-align:center;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 border-bottom:1px solid #1e293b;
 }
 
-header h1{
-font-size:48px;
-margin-bottom:10px;
+nav a{
+margin-left:20px;
+color:#e2e8f0;
+text-decoration:none;
 }
 
-header p{
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
 color:#94a3b8;
-font-size:18px;
 }
 
 .container{
 max-width:1000px;
 margin:auto;
-padding:40px 20px;
-}
-
-.section{
-margin-bottom:60px;
+padding:60px 20px;
 }
 
 h2{
@@ -49,212 +97,157 @@ margin-bottom:15px;
 
 .card{
 background:#020617;
-padding:25px;
-margin:20px 0;
+padding:30px;
 border-radius:8px;
 border:1px solid #1e293b;
-}
-
-a{
-color:#38bdf8;
-text-decoration:none;
-}
-
-a:hover{
-text-decoration:underline;
+margin:20px 0;
 }
 
 footer{
 background:#020617;
-padding:30px;
+padding:40px;
 text-align:center;
 border-top:1px solid #1e293b;
 color:#94a3b8;
 }
 
+a{
+color:#38bdf8;
+}
+
 </style>
+
 </head>
 
 <body>
 
 <header>
 
-<h1>WellFormedWeb</h1>
+<h2>WellFormedWeb</h2>
 
-<p>
-Building structured, reliable, and well-designed web systems.
-</p>
-
-<p>
-Official Website:
-<a href="https://wellformedweb.org/">https://wellformedweb.org</a>
-</p>
+<nav>
+<a href="https://wellformedweb.org/">Website</a>
+<a href="https://github.com/wellformedweb">GitHub</a>
+</nav>
 
 </header>
 
 
+<section class="hero">
+
+<h1>WellFormedWeb</h1>
+
+<p>
+Exploring modern web development, scalable architecture, and clean engineering principles
+for building reliable, maintainable, and well-structured web systems.
+</p>
+
+<p>
+Visit the official website:
+<a href="https://wellformedweb.org/">https://wellformedweb.org</a>
+</p>
+
+</section>
+
+
 <div class="container">
 
-<div class="section">
+<section>
 
-<h2>About WellFormedWeb</h2>
-
-<p>
-WellFormedWeb is an initiative focused on creating high-quality web platforms,
-tools, and architectural patterns that encourage clean design and maintainable
-software. The project explores how modern web technologies can be used to
-build systems that are scalable, understandable, and resilient over time.
-</p>
-
-<p>
-As the web continues to evolve, developers face increasing complexity across
-frameworks, tooling, infrastructure, and deployment pipelines. WellFormedWeb
-aims to simplify this landscape by promoting principles that lead to
-well-structured systems and thoughtful engineering practices.
-</p>
-
-</div>
-
-
-<div class="section">
-
-<h2>Mission</h2>
+<h2>Modern Web Development & Architecture</h2>
 
 <div class="card">
+
 <p>
-The mission of WellFormedWeb is to promote strong architectural thinking in
-web development and encourage developers to build systems that are robust,
-maintainable, and thoughtfully designed.
+WellFormedWeb is a project focused on improving the quality of web engineering by
+promoting structured design, maintainable code, and scalable system architecture.
+The modern web ecosystem is powerful but complex, and building reliable systems
+requires thoughtful engineering practices.
 </p>
 
 <p>
-By focusing on clarity, modular design, and sustainable engineering
-principles, WellFormedWeb aims to provide resources and examples that help
-developers create software that stands the test of time.
+Through experiments, documentation, and tools, WellFormedWeb explores better ways
+to design web platforms that are easier to maintain, easier to scale, and easier
+for teams to collaborate on.
 </p>
-</div>
 
 </div>
 
+</section>
 
-<div class="section">
 
-<h2>Core Principles</h2>
+<section>
+
+<h2>Core Principles of Well-Structured Web Systems</h2>
 
 <div class="card">
 
 <ul>
 
-<li>Clarity and simplicity in system architecture</li>
-<li>Maintainable and readable codebases</li>
-<li>Performance-focused engineering</li>
-<li>Long-term scalability</li>
-<li>Open knowledge sharing</li>
-<li>Modern development practices</li>
+<li>Clean and maintainable codebases</li>
+<li>Scalable web architecture</li>
+<li>Performance-focused design</li>
+<li>Accessible and inclusive interfaces</li>
+<li>Long-term maintainability</li>
+<li>Developer-friendly tooling</li>
 
 </ul>
 
 </div>
 
-</div>
+</section>
 
 
-<div class="section">
+<section>
 
 <h2>Areas of Exploration</h2>
 
 <div class="card">
 
 <p>
-WellFormedWeb explores multiple areas of modern web engineering, including:
+WellFormedWeb explores a variety of topics across modern web engineering,
+including:
 </p>
 
 <ul>
 
-<li>Frontend architecture and component design</li>
-<li>Scalable backend infrastructure</li>
-<li>Static and hybrid site architectures</li>
-<li>Developer productivity tooling</li>
-<li>Performance optimization strategies</li>
-<li>Modern JavaScript and TypeScript ecosystems</li>
-<li>Accessibility and inclusive design</li>
-<li>Cloud-native deployment patterns</li>
+<li>Frontend architecture</li>
+<li>JavaScript and TypeScript ecosystems</li>
+<li>Static site infrastructure</li>
+<li>Cloud deployment strategies</li>
+<li>Developer tooling</li>
+<li>Performance optimization</li>
+<li>Open web standards</li>
 
 </ul>
 
 </div>
 
-</div>
+</section>
 
 
-<div class="section">
+<section>
 
-<h2>Project Vision</h2>
-
-<div class="card">
-
-<p>
-The long-term vision for WellFormedWeb is to grow into a knowledge hub
-and development ecosystem where engineers can explore modern best practices
-for building well-structured web systems.
-</p>
-
-<p>
-This includes publishing technical articles, creating experimental tools,
-building open-source libraries, and documenting architectural patterns
-that improve developer workflows.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="section">
-
-<h2>Development Roadmap</h2>
+<h2>Official Website</h2>
 
 <div class="card">
 
 <p>
-Planned future developments include:
-</p>
-
-<ul>
-
-<li>Developer tools and utilities</li>
-<li>Example application architectures</li>
-<li>Open-source libraries</li>
-<li>Documentation and educational resources</li>
-<li>Performance benchmarking projects</li>
-<li>Web infrastructure experiments</li>
-
-</ul>
-
-</div>
-
-</div>
-
-
-<div class="section">
-
-<h2>Learn More</h2>
-
-<div class="card">
-
-<p>
-To explore the broader WellFormedWeb initiative and access additional
-resources, visit the official website:
+The primary platform for WellFormedWeb is hosted here:
 </p>
 
 <p>
 <a href="https://wellformedweb.org/">https://wellformedweb.org</a>
 </p>
 
-</div>
+<p>
+The GitHub Pages site exists as a lightweight entry point for the project,
+helping developers discover the broader initiative and its resources.
+</p>
 
 </div>
 
+</section>
 
 </div>
 
@@ -262,15 +255,19 @@ resources, visit the official website:
 <footer>
 
 <p>
-© WellFormedWeb — Building structured web systems.
+© WellFormedWeb
 </p>
 
 <p>
-GitHub Pages Site: wellformedweb.github.io
+GitHub: https://github.com/wellformedweb
+</p>
+
+<p>
+Official Website: https://wellformedweb.org
 </p>
 
 </footer>
 
-
 </body>
+
 </html>
