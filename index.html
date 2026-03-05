@@ -5,7 +5,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="https://we88th.uk.com/wp-content/uploads/2025/08/we88-favicon-new.png" type="image/png">
+<link rel="icon" href="https://we88th.uk.com/wp-content/uploads/2025/08/we88-favicon-new.png" type="image/png">
 
 <title>WellFormedWeb | Structured Web Architecture & Modern Web Development</title>
 
@@ -41,78 +41,128 @@
 
 <style>
 
-body{
-font-family:Arial,Helvetica,sans-serif;
-margin:0;
-background:#0f172a;
-color:#e2e8f0;
-line-height:1.6;
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
 }
 
-header{
-background:#020617;
-padding:20px 40px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-border-bottom:1px solid #1e293b;
+header {
+  background: #020617;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-nav a{
-margin-left:20px;
-color:#e2e8f0;
-text-decoration:none;
+header h2 {
+  color: #38bdf8;
+  margin: 0;
 }
 
-nav a:hover{
-color:#38bdf8;
+nav a {
+  margin-left: 20px;
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.hero{
-text-align:center;
-padding:120px 20px;
+nav a:hover {
+  color: #38bdf8;
 }
 
-.hero h1{
-font-size:48px;
-margin-bottom:20px;
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
 }
 
-.hero p{
-max-width:700px;
-margin:auto;
-color:#94a3b8;
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
-.container{
-max-width:1000px;
-margin:auto;
-padding:60px 20px;
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  color: #94a3b8;
+  font-size: 18px;
 }
 
-h2{
-color:#38bdf8;
-margin-bottom:15px;
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
 }
 
-.card{
-background:#020617;
-padding:30px;
-border-radius:8px;
-border:1px solid #1e293b;
-margin:20px 0;
+h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
 }
 
-footer{
-background:#020617;
-padding:40px;
-text-align:center;
-border-top:1px solid #1e293b;
-color:#94a3b8;
+.card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-a{
-color:#38bdf8;
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #020617;
+  padding: 40px;
+  text-align: center;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+}
+
+footer a {
+  color: #38bdf8;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #02b1e4;
+}
+
+.code-sample {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+  color: #e2e8f0;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  margin: 20px 0;
 }
 
 </style>
@@ -128,10 +178,10 @@ color:#38bdf8;
 <nav>
 <a href="https://wellformedweb.org/">Website</a>
 <a href="https://github.com/wellformedweb">GitHub</a>
+<a href="https://wellformedweb.org/contact">Contact</a>
 </nav>
 
 </header>
-
 
 <section class="hero">
 
@@ -142,13 +192,9 @@ Exploring modern web development, scalable architecture, and clean engineering p
 for building reliable, maintainable, and well-structured web systems.
 </p>
 
-<p>
-Visit the official website:
-<a href="https://wellformedweb.org/">https://wellformedweb.org</a>
-</p>
+<button onclick="window.location.href='https://wellformedweb.org'">Learn More</button>
 
 </section>
-
 
 <div class="container">
 
@@ -175,7 +221,6 @@ for teams to collaborate on.
 
 </section>
 
-
 <section>
 
 <h2>Core Principles of Well-Structured Web Systems</h2>
@@ -183,20 +228,17 @@ for teams to collaborate on.
 <div class="card">
 
 <ul>
-
 <li>Clean and maintainable codebases</li>
 <li>Scalable web architecture</li>
 <li>Performance-focused design</li>
 <li>Accessible and inclusive interfaces</li>
 <li>Long-term maintainability</li>
 <li>Developer-friendly tooling</li>
-
 </ul>
 
 </div>
 
 </section>
-
 
 <section>
 
@@ -210,7 +252,6 @@ including:
 </p>
 
 <ul>
-
 <li>Frontend architecture</li>
 <li>JavaScript and TypeScript ecosystems</li>
 <li>Static site infrastructure</li>
@@ -218,13 +259,34 @@ including:
 <li>Developer tooling</li>
 <li>Performance optimization</li>
 <li>Open web standards</li>
-
 </ul>
 
 </div>
 
 </section>
 
+<section>
+
+<h2>Sample Code: Clean Architecture</h2>
+
+<div class="code-sample">
+function createServer() {
+    const express = require('express');
+    const app = express();
+
+    app.get('/', (req, res) => {
+        res.send('Hello, World!');
+    });
+
+    app.listen(3000, () => {
+        console.log('Server running on port 3000');
+    });
+}
+
+createServer();
+</div>
+
+</section>
 
 <section>
 
@@ -251,7 +313,6 @@ helping developers discover the broader initiative and its resources.
 
 </div>
 
-
 <footer>
 
 <p>
@@ -259,11 +320,11 @@ helping developers discover the broader initiative and its resources.
 </p>
 
 <p>
-GitHub: https://github.com/wellformedweb
+GitHub: <a href="https://github.com/wellformedweb">https://github.com/wellformedweb</a>
 </p>
 
 <p>
-Official Website: https://wellformedweb.org
+Official Website: <a href="https://wellformedweb.org">https://wellformedweb.org</a>
 </p>
 
 </footer>
